@@ -1,0 +1,587 @@
+@font-face {
+    font-family: HARRINGT;
+    src: url(/fonts/HARRINGT.TTF);
+}
+
+@font-face {
+    font-family: BITCBLKAD;
+    src: url(/fonts/BITCBLKAD.ttf);
+}
+
+@font-face {
+    font-family: Arial Rounded MT Bold Regular;
+    src: url(/fonts/Arial\ Rounded\ MT\ Bold\ Regular.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url(/fonts/MyriadPro-Light.otf);
+}
+
+/* body */
+
+.back-ground-img{
+    place-items: center;
+    position: relative;
+}
+
+.back-ground-img::before{
+    content: '';
+    background-image: url(/pizza/img/9782021.jpg);
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.1;
+}
+
+/* topbar */
+
+#topbar{
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(100deg, red 65%, yellow 35%);
+    overflow: auto;
+}
+
+.sec50{
+    overflow: auto;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+/* logo */
+
+#logobar img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#logobar h1{
+    font-size: 20px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    float: left;
+    font-family: MyriadPro-Light;
+}
+
+#logobar h2{
+    font-size: 13px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding-left: 2px;
+    float: left;
+    font-family: MyriadPro-Light;
+}
+
+/* contact us */
+
+#cont-num{
+    float: right;
+    font-size: 10px;
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+/* navbar */
+
+#navbar{
+    float: right;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 40px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* discount */
+
+.sec250{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+.for-pizza{
+    box-sizing: border-box;
+}
+
+.for-pizza img{
+    height: 50px;
+    width: 50px;
+    padding-left: 310px;
+}
+
+.for-pizza h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    padding-left: 360px;
+    margin: 0px;
+}
+
+.for-pizza h1{
+    font-size: 50px;
+    font-weight: 50;
+    text-align: center;
+    float: left;
+    padding-left: 350px;
+    margin: 0%;
+    padding-top: 5px;
+    font-family: HARRINGT;
+}
+
+.for-pizza h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    padding-left: 300px;
+    margin: 0%;
+}
+
+.for-pizza h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    padding-left: 500px;
+    padding-top: 20px;
+    margin: 0%;
+}
+
+.pic1{
+    float: left;
+    box-sizing: border-box;
+}
+
+.pic1 img{
+    height: 50px;
+    width: 50px;
+    padding-left: 700px;
+    padding-top: 0px;
+}
+
+.pic1 p{
+    font-size: 35px;
+    font-weight: 25;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    transform: rotate(-20deg);
+    transform-origin: 50% -50%;
+    margin: 0%;
+    font-family: BITCBLKAD;
+    color: white;
+}
+
+.pic5{
+    float: left;
+    box-sizing: border-box;
+}
+
+.pic5 img{
+    height: 200px;
+    width: 280px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+/* discount */
+
+.discount img{
+    height: 300px;
+    width: 300px;
+    padding-left: 125px;
+    padding-top: 65px;
+}
+
+.discount p{
+    border: 2px;
+    background-color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    left: -10px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.pic2{
+    float: left;
+    box-sizing: border-box;
+}
+
+.pic2 img{
+    height: 50px;
+    width: 50px;
+    padding-left: 500px;
+    padding-top: -200px;
+}
+
+/* choose you favourite */
+
+#you-choose{
+    text-align: center;
+    padding: 10px 30px 40px 30px;
+}
+
+#you-choose h1{
+    font-family: HARRINGT;
+    font-weight: 20;
+    font-size: 40px;
+}
+
+#you-choose p{
+    padding-bottom: 30px;
+}
+
+.div33{
+    width: 33.33%;
+    overflow: auto;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(to bottom, white 15%, yellow 15%, yellow 35%, white 35%);
+}
+
+.div33 img{
+    height: 300px;
+    width: 300px;
+}
+
+.div33 p{
+    padding-bottom: 30px;
+}
+
+.div33 h3{
+    font-family: Arial Rounded MT Bold Regular;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.div33 a{
+    background-color: yellow;
+    box-sizing: border-box;
+    padding: 10px 25px 10px 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* reservation */
+
+#reservation{
+    overflow: auto;
+    text-align: center;
+}
+
+#reservation h3{
+    font-size: 20px;
+}
+
+#reservation h1{
+    font-size: 60px;
+    font-family: HARRINGT;
+    font-weight: 20;
+}
+
+#reservation form{
+    padding: 20px 30px 40px 40px;
+    width: 40%;
+}
+
+#reservation input[type="text"]{
+    font-size: 15px;
+    padding: 10px 20px 10px 10px;
+}
+
+.book-you-pizza{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .reserv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .reserv .inputbox{
+    width: calc(100%/2 - 20px);
+    margin: 10px;
+}
+
+#reservation input[type="submit"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+/* copyright */
+
+#copyright{
+    background-color: yellow;
+    overflow: auto;
+}
+
+.div50{
+    padding: 20px 10px 20px 10px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+
+.div50 p{
+    padding: 20px 30px 20px 60px;
+    float: left;
+    text-align: left;
+}
+
+#logobar1 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-left: 35px;
+}
+
+#logobar1 h1{
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    float: left;
+    color: red;
+}
+
+#logobar1 h2{
+    font-size: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 2px;
+    float: left;
+    color: red;
+}
+
+#contact-us{
+    list-style-type: none;
+    padding: 0%;
+    padding-top: 40px;
+}
+
+.div50 li{
+    padding-top: 10px;
+}
+
+.div50 ul li a{
+    text-decoration: none;
+    padding-left: 150px;
+}
+
+.fa-solid{
+    color: red;
+}
+
+.div250{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 20px 30px 20px 30px;
+    overflow: auto;
+}
+
+.div250 p{
+    text-align: center;
+    float: left;
+    padding-left: 40px;
+}
+
+#social-icon{
+    float: right;
+    padding-right: 40px;
+}
+
+.fa-brands{
+    background-color: rgb(70, 67, 67);
+    color: yellow;
+    padding: 7px;
+    border-radius: 50%;    
+}
+
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+
+/* responsive ipad */
+
+@media only screen and (max-width: 768px){
+    #cont-num{
+        padding-right: 40px;
+    }
+    
+    #navbar ul li{
+        padding: 18px 0px;
+        padding-right: 20px;
+    }
+
+    .for-pizza img {
+        padding-left: 135px;
+    }
+    .for-pizza h2 {
+        font-size: 15px;
+        padding-left: 190px;
+    }
+    .for-pizza h1 {
+        font-size: 40px;        
+        padding-left: 170px;      
+    }
+    .for-pizza h3 {
+        font-size: 10px;
+        padding-left: 190px;
+    }
+    .for-pizza h4 {
+        font-size: 10px;
+        padding-left: 280px;
+        padding-top: 20px;
+    }
+    .pic1 p {
+        font-size: 25px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .pic5 img {
+        height: 150px;
+        width: 250px;
+        padding-left: 100px;
+        padding-top: 0px;
+    }
+    .pic1 img {
+        padding-top: 15px;
+        float: right;
+    }
+    .discount img {
+        height: 250px;
+        width: 250px;
+        padding-left: 10px;
+        padding-top: 80px;
+    }
+    .discount p {
+        position: relative;
+        bottom: 215px;
+        left: -30px;
+    }.pic2 img {
+        padding-left: 300px;
+        padding-top: -200px;
+    }
+    .div33 img {
+        height: 225px;
+        width: 225px;
+    }
+    #reservation form {
+        width: 70%;
+    }
+    .div50 {
+        padding: 15px 0px 20px 0px;        
+        height: 175px;
+    }
+    .div50 ul li a {
+        padding-left: 100px;
+    }
+}
+
+/* responsive mobile */
+
+@media only screen and (max-width: 500px){
+    .div33, .div50, .div250, .sec50, .sec250{
+        width: 100%;
+    }
+    #topbar {
+        height: 100vh;
+    }
+    #logobar img {
+        padding-left: 115px;
+    }
+    #navbar {
+        padding-top: 0px;
+    }
+    #cont-num {
+        float: right;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #cont-num {
+        padding-right: 0px;
+    }
+    #navbar ul li {
+        padding: 10px 0px;
+        padding-right: 15px;
+    }
+    .for-pizza img {
+        padding-left: 100px;
+    }
+    .for-pizza h2 {
+        padding-left: 140px;
+    }
+    .for-pizza h1 {
+        padding-left: 120px;
+    }
+    .for-pizza h3 {
+        padding-left: 140px;
+    }
+    .for-pizza h4 {
+        padding-left: 230px;
+        padding-top: 10px;
+    }
+    .pic1 p {
+        padding-left: 5px;
+        padding-top: 40px;
+    }
+    .discount img {
+        height: 200px;
+        width: 200px;
+        padding-left: 40px;
+        padding-top: 0px;
+    }
+    .discount p {
+        bottom: 110px;
+        left: 20px;
+    }
+    .pic2 img {
+        padding-left: 250px;
+        padding-top: 0px;
+    }
+    #reservation form {
+        padding: 23px 30px 40px 40px;
+        width: 10%;
+    }
+    .book-you-pizza {
+        justify-content: normal;
+    }
+}
